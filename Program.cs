@@ -44,7 +44,7 @@ var Karinas = new[]
 app.MapGet("/Karina", () =>
 {
     Random random = new Random();
-        string randomItem = rikkis.ElementAt(random.Next(Karinas.Length));
+        string randomItem = Karinas.ElementAt(random.Next(Karinas.Length));
         
     return randomItem;
 })
