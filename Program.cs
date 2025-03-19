@@ -36,7 +36,7 @@ app.MapGet("/Rikki", () =>
 var Karinas = new[]
 {
     "I'm NAAASSSTTTTYYYYY",
-    "Don't be a lil rat,  $(randomuser)",
+    "Don't be a lil rat,  @$(randomuser)",
     "If we win this one, we win!",
     "@Karina7702's battery is currently on Rand[0,5]"
 };
