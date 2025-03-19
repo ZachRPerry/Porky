@@ -19,7 +19,7 @@ var rikkis = new[]
     "It has been 0 Games Since Rikki shot Karina!",
     "It has been 0 games since Rikki shot a teammate",
     "RAWRRR",
-    "Have you ever had a hawaiian bowl? MMM"
+    "Have you ever had a hawaiian bowl? MMM [emote:3341441:porksliceRikki]"
 };
 
 app.MapGet("/Rikki", () =>
