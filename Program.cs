@@ -31,6 +31,25 @@ app.MapGet("/Rikki", () =>
 })
 .WithName("Rikki");
 
+
+
+var Karinas = new[]
+{
+    "I'm NAAASSSTTTTYYYYY",
+    "Don't be a lil rat,  $(randomuser)",
+    "If we win this one, we win!",
+    "@Karina7702's battery is currently on Rand[0,5]"
+};
+
+app.MapGet("/Karina", () =>
+{
+    Random random = new Random();
+        string randomItem = rikkis.ElementAt(random.Next(Karinas.Length));
+        
+    return randomItem;
+})
+.WithName("Karina");
+
 app.Run();
 
 
