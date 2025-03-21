@@ -41,7 +41,10 @@ var Quotes = new[]
     "I talk when I play with my friends - Candi",
     "Salt life is life - Dawn",
     "Damn Turtles!! ~ Rikki",
-    "I like men ~ Porky"
+    "I like men ~ Porky",
+    "You little rat ~Karina",
+    "Ick ~Candi",
+    "Ick ~Karina"
 };
 
 app.MapGet("/Quotes", () =>
