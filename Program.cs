@@ -50,7 +50,8 @@ var Quotes = new[]
     "Meow ~Sirius",
     "I hope you shit your pants ~Porky   Name the time and place ~Caleb",
     "I love Pico Park ~Porky",
-    "I love Pico Park 2 ~Porky"
+    "I love Pico Park 2 ~Porky",
+    "Never trust anything you read on the internet ~Abraham Lincoln"
 };
 
 app.MapGet("/Quotes", () =>
