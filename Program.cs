@@ -33,22 +33,23 @@ app.MapGet("/Rikki", () =>
 
 
 
-var Karinas = new[]
+var Quotes = new[]
 {
-    "I'm NAAASSSTTTTYYYYY",
-    "Don't be a lil rat, $(randomuser)",
-    "If we win this one, we win!",
-    "@Karina7702's battery is currently on Rand[0,5]"
+    "I'm NAAASSSTTTTYYYYY ~ Karina",
+    "Bad Girls don't get cuddles ~ Step",
+    "If we win this one, we win! ~ Karina",
+    "I talk when I play with my friends - Candi",
+    "Salt life is life - Dawn"
 };
 
-app.MapGet("/Karina", () =>
+app.MapGet("/Quotes", () =>
 {
     Random random = new Random();
-        string randomItem = Karinas.ElementAt(random.Next(Karinas.Length));
+        string randomItem = Quotes.ElementAt(random.Next(Quotes.Length));
         
     return randomItem;
 })
-.WithName("Karina");
+.WithName("Quotes");
 
 app.Run();
 
