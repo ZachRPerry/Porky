@@ -48,7 +48,9 @@ var Quotes = new[]
     "FINISH HIM ~Zachypoo   I will ~Candi",
     "Meow ~Dobbie",
     "Meow ~Sirius",
-    "I hope you shit your pants ~Porky   Name the time and place ~Caleb"
+    "I hope you shit your pants ~Porky   Name the time and place ~Caleb",
+    "I love Pico Park ~Porky",
+    "I love Pico Park 2 ~Porky"
 };
 
 app.MapGet("/Quotes", () =>
