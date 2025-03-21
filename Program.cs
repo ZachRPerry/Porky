@@ -36,10 +36,12 @@ app.MapGet("/Rikki", () =>
 var Quotes = new[]
 {
     "I'm NAAASSSTTTTYYYYY ~ Karina",
-    "Bad Girls don't get cuddles ~ Step",
+    "Bad Girls don't get cuddles ~ Steph",
     "If we win this one, we win! ~ Karina",
     "I talk when I play with my friends - Candi",
-    "Salt life is life - Dawn"
+    "Salt life is life - Dawn",
+    "Damn Turtles!! ~ Rikki",
+    "I like men ~ Porky"
 };
 
 app.MapGet("/Quotes", () =>
