@@ -44,7 +44,11 @@ var Quotes = new[]
     "I like men ~ Porky",
     "You little rat ~Karina",
     "Ick ~Candi",
-    "Ick ~Karina"
+    "Ick ~Karina", 
+    "FINISH HIM ~Zachypoo   I will ~Candi",
+    "Meow ~Dobbie",
+    "Meow ~Sirius",
+    "I hope you shit your pants ~Porky   Name the time and place ~Caleb"
 };
 
 app.MapGet("/Quotes", () =>
