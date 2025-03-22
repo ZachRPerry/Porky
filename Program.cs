@@ -65,7 +65,8 @@ var Quotes = new[]
     "It's me, I'm the problem ~Steph",
     "I'm on the pill its ok ~Women",
     "RAWR ~The Porkites",
-    "It wasn't me ~OJ/Shaggy/Porky"
+    "It wasn't me ~OJ/Shaggy/Porky",
+    "Got him right in the weiner ~Rikki"
 };
 
 app.MapGet("/Quotes", () =>
