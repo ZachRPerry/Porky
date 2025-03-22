@@ -66,7 +66,9 @@ var Quotes = new[]
     "I'm on the pill its ok ~Women",
     "RAWR ~The Porkites",
     "It wasn't me ~OJ/Shaggy/Porky",
-    "Got him right in the weiner ~Rikki"
+    "Got him right in the weiner ~Rikki",
+    "I Just blew myself ~Karina",
+    "I’ve been practicing like crazy and can now fit four adult farts in my mouth! ~Random"
 };
 
 app.MapGet("/Quotes", () =>
