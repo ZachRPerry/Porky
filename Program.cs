@@ -81,6 +81,20 @@ app.MapGet("/Quotes", () =>
 })
 .WithName("Quotes");
 
+
+var Tests = new[]
+{
+    "Hey @$(v1)"
+};
+app.MapGet("/Test", () =>
+{
+    Random random = new Random();
+        string randomItem = Tests.ElementAt(random.Next(Tests.Length));
+        
+    return randomItem;
+})
+.WithName("Test");
+
 app.Run();
 
 
