@@ -77,7 +77,7 @@ var Quotes = new[]
 app.MapGet("/Quotes", () =>
 {
     Random random = new Random();
-        string randomItem = Lines.ElementAt(random.Next(Lines.Length));
+        string randomItem = Quotes.ElementAt(random.Next(Quotes.Length));
         
     return randomItem;
 })
