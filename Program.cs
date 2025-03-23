@@ -71,7 +71,8 @@ var Quotes = new[]
     "I’ve been practicing like crazy and can now fit four adult farts in my mouth! ~Random",
     "Porksicle ~Queen",
     "Hahahahaha snorts ~Rikki",
-    "Gluck Gluck MF Gluck Gluck ~Rikki"
+    "Gluck Gluck MF Gluck Gluck ~Rikki",
+"I am going to try and go live in the morning ~Porky before not going live in the morning"
 };
 
 app.MapGet("/Quotes", () =>
