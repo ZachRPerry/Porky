@@ -115,7 +115,7 @@ var Lines = new[]
 app.MapGet("/Lines", () =>
 {
     Random random = new Random();
-        string randomItem = Tests.ElementAt(random.Next(Tests.Length));
+        string randomItem = Lines.ElementAt(random.Next(Lines.Length));
         
     return randomItem;
 })
