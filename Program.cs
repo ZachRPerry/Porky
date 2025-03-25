@@ -72,7 +72,8 @@ var Quotes = new[]
     "Porksicle ~Queen",
     "Hahahahaha snorts ~Rikki",
     "Gluck Gluck MF Gluck Gluck ~Rikki",
-"I am going to try and go live in the morning ~Porky before not going live in the morning"
+    "I am going to try and go live in the morning ~Porky before not going live in the morning",
+    "Fuck me sideways ~Tenisha"
 };
 
 app.MapGet("/Quotes", () =>
