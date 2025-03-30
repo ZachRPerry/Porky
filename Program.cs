@@ -74,7 +74,8 @@ var Quotes = new[]
     "Gluck Gluck MF Gluck Gluck ~Rikki",
     "I am going to try and go live in the morning ~Porky before not going live in the morning",
     "Fuck me sideways ~Tenisha",
-    "I'll give you a free SND game for finding this hidden quote ~Porky (this is real and not fake)"
+    "I'll give you a free SND game for finding this hidden quote ~Porky (this is real and not fake)", 
+    "What did you throw at him? Your number? ~ Porky"
 };
 
 app.MapGet("/Quotes", () =>
