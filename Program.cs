@@ -80,8 +80,7 @@ var Quotes = new[]
     "I GOT ELECTROCUTIONED! ~Ash",
     "!play moo doja cat",
     "!points add @Version_ONE 100",
-    "I lost the game ~ whoever is not the loser",
-    "porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1"
+    "I lost the game ~ whoever is not the loser"
 };
 
 app.MapGet("/Quotes", () =>
