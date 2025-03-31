@@ -75,7 +75,11 @@ var Quotes = new[]
     "I am going to try and go live in the morning ~Porky before not going live in the morning",
     "Fuck me sideways ~Tenisha",
     "I'll give you a free SND game for finding this hidden quote ~Porky (this is real and not fake)", 
-    "What did you throw at him? Your number? ~ Porky"
+    "What did you throw at him? Your number? ~Porky",
+    "Did he just call me a whore rag? ~Porky",
+    "I GOT ELECTROCUTIONED! ~Ash",
+    "!play moo doja cat",
+    "!points add @Version_ONE 100"
 };
 
 app.MapGet("/Quotes", () =>
