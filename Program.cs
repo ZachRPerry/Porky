@@ -79,7 +79,9 @@ var Quotes = new[]
     "Did he just call me a whore rag? ~Porky",
     "I GOT ELECTROCUTIONED! ~Ash",
     "!play moo doja cat",
-    "!points add @Version_ONE 100"
+    "!points add @Version_ONE 100",
+    "I lost the game ~ whoever is not the loser",
+    "porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1 porksliceV1"
 };
 
 app.MapGet("/Quotes", () =>
