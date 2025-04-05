@@ -61,7 +61,10 @@ var Quotes = new[]
     "I GOT ELECTROCUTIONED! ~Ash",
     "!play moo doja cat",
     "!points add @Version_ONE 100",
-    "I lost the game ~ whoever is not the loser"
+    "I lost the game ~ whoever is not the loser",
+    "im sad I have no quotes in the quote thingy.  Roguishly",
+    "AHHHHHHHHHH -Roguishly",
+    "Can you use less big words - Karinar"
 };
 
 app.MapGet("/Quotes", () =>
